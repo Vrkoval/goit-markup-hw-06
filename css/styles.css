@@ -758,3 +758,235 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     width: 8px;
     height: 8px;
 }
+.form{
+    width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+    /* outline: 1px solid red; */
+}
+
+.form-area{
+    position: relative;
+
+    margin-bottom: 8px;
+    /* outline: 1px solid blue; */
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.form-label{
+    margin-bottom: 4px;
+    color: #8E8F99;
+    font-size: 12px;
+    line-height: 1.16;
+}
+
+.form-input{
+    margin: 0;
+    padding: 0;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    height: 40px;
+
+    padding-left: 34px;
+
+
+    transition-property: border-color color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.input-ico-label{
+    position: absolute;
+    top: 50%;
+    left: 19px;
+    color: #2E2F42;
+}
+
+.input-ico{
+    width: 13px;
+    height: 13px;
+    fill: currentColor;
+}
+
+.form-input:focus {
+    border-color: #4D5AE5;
+}
+
+.form-input:focus+.form-label+.input-ico-label {
+    color: #4D5AE5;
+}
+
+.form-input:focus+.input-ico-label {
+    color: #4D5AE5;
+}
+
+.form-textarea{
+    resize: none;
+
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+
+    height: 120px;
+    padding-left: 16px;
+    padding-top: 8px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 0,875;
+    letter-spacing: 0.01em;
+
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-texarea:focus {
+    border-color: #4D5AE5;
+}
+
+
+
+.modal-privacy-link{
+    text-decoration: none;
+    color: #4D5AE5;
+}
+
+.form-privacy-check{
+    appearance: none;
+
+}
+
+.privacy-check-icon-field{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+    width: 16px;
+    height: 16px;
+    border: 1.25px solid #2E2F42;
+    border-radius: 2px;
+
+
+    transition-property: background-color border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.privacy-check-icon{
+    width: 10px;
+    height: 8px;
+    fill: #FFFFFF;
+}
+
+.form-privacy-check:checked +.privacy-check-icon-field {
+    background-color: #4D5AE5;
+    border-color: #4D5AE5;
+}
+
+.submit-button{
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    color: #FFFFFF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    width: 170px;
+    height: 51px;
+
+    
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+
+    transition-property: box-shadow background;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit-button:hover,
+.submit-button:focus{
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        
+}
+        
+.submit-button:active {
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-mail{
+    display: inline-block;
+    width: 264px;
+    height: 40px;
+
+    background-color: var(--title-text-color);
+
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+
+    padding-left: 16px;
+
+    margin-right: 24px;
+
+    color: var(--primary-white-color);
+
+    font-family: 'Roboto';
+    font-size: 12px;
+    line-height: 1;
+}
+
+.subscribe-button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+
+    gap: 16px;
+
+    background-color: var(--link-color);
+
+    font-family: 'Roboto';
+    font-weight: 700;
+    line-height: 1.5;
+    color: var(--primary-white-color);
+    letter-spacing: 0.06em;
+
+}
+
+.subscribe-ico{
+    width: 24px;
+    height: 20px;
+    fill: #FFFFFF;
+
+}
+
+
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
