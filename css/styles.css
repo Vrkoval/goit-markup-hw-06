@@ -719,10 +719,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 
-/* .is-hidden{
+.is-hidden{
     opacity: 0;
     pointer-events: none;
-} */
+}
 
 .modal{
     position: absolute;
@@ -757,6 +757,15 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     display: block;
     width: 8px;
     height: 8px;
+}
+.modal-heading{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 32px 24px 16px 24px;
+    text-align: center;
 }
 .form{
     width: 360px;
@@ -807,6 +816,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     width: 13px;
     height: 13px;
     fill: currentColor;
+    position: absolute;
 }
 
 .form-input:focus {
@@ -975,7 +985,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 
-Footer
+/* Footer
 © 2022 GitHub, Inc.
 Footer navigation
 Terms
@@ -989,4 +999,4 @@ API
 Training
 Blog
 About
-
+ */
