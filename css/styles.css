@@ -903,10 +903,8 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid ; */
-    background: var(--link-color);
-    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
-    border-radius: 4px;
+        background: var(--link-color);
+      border-radius: 4px;
 cursor: pointer;
     width: 170px;
     height: 51px;
